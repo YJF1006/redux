@@ -15,7 +15,10 @@
 - 5.context上下文传属性  里面有context传属性的基本步骤  （孙子要属性不需要通过父级，可以直接向父父级要）
 -       一般不用，因为他不稳定，突然传过来一个属性，都不知道哪来的
 - 6.react-redux(封装了connect库，将组件分成UI组件和逻辑组件)
-
+-      其中 connet Provider  来自系统库 react-redux  （写的时候可以直接引用，本文件夹中是自己封装的）
+-7. 一般写项目的格式就是这样的     我们需要写  UI组件 reducer 
+    redux系统库 提供createStore     react-redux系统库 提供 Prodiver  connect 
+    
 ## 两个图片是redux应用场景和工作原理
 
 
